@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakti</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/css.css">
+
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/map.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/svg-inject.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="header__top">
+                <div class="container">
+                    <div class="headerTop__wrap">
+                        <div class="header__logo">
+                            <a href="#" class="logo__link">
+                                <img src="./images/logo.png" class="logoLink__img" alt="">
+                            </a>
+                        </div>
+                        <div class="headerTop__right">
+                            <div class="language">
+                                <div class="language__current">LV <img src="./images/arrow-btn.png" class="language__current-arrow" alt=""></div>
+                                <div class="languageSwitcher__wrap">
+                                    <ul class="languageSwitcher">
+                                        <li class="languageSwitcher__li">
+                                            <a href="#" class="languageSwitcher__link">LV</a>
+                                        </li>
+                                        <li class="languageSwitcher__li">
+                                            <a href="#" class="languageSwitcher__link">RU</a>
+                                        </li>
+                                        <li class="languageSwitcher__li">
+                                            <a href="#" class="languageSwitcher__link">EN</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="topPhone">
+                                <a href="#" class="topPhone__link">
+                                    <img src="./images/phone-call.svg" class="topPhoneLink__img" onload="SVGInject(this)" alt="">
+                                    <span class="topPhoneLink__main">
+                                        <span class="topPhoneLink__number">28 700 013</span>
+                                        <span class="topPhoneLink__timeWrap">
+                                            <span class="topPhoneLink__time">8:00 - 12:00</span>
+                                            <span class="topPhoneLink__time">13:00 - 17:00</span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="burgerWrap">
+                                <button type="button" class="burger">
+                                    <span class="burger__span"></span>
+                                    <span class="burger__span1"></span>
+                                    <span class="burger__span2"></span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__bottom">
+                <div class="container">
+                    <div class="headerBottom__wrap">
+                        <nav class="nav">
+                            <a href="#" class="nav__link">Pakalpojumi</a>
+                            <a href="#" class="nav__link">Vakances</a>
+                            <a href="#" class="nav__link">Cenas</a>
+                            <a href="#" class="nav__link">Karte</a>
+                            <a href="#" class="nav__link">Jaunumi</a>
+                            <a href="#" class="nav__link">Par mums</a>
+                            <a href="#" class="nav__link">Loterijas</a>
+                            <a href="#" class="nav__link">Kontakti</a>
+                        </nav>
+                        <div class="header__btnWrap">
+                            <a href="#" class="header__btn">
+                                <img src="./images/email.svg" class="header__btn-icon" onload="SVGInject(this)" alt="">
+                                <span class="header__btn-text">Sazinies ar mums</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="breadcrumbs">
+                <div class="breadcrumbs__main" style="background: url(./images/kontakti-bg.jpg);">
+                    <h1 class="breadcrumbs__title">Kontakti</h1>
+                </div>
+                <div class="breadcrumbs__banner">
+                    <a href="#" class="mainBlock__banner mainBlock__banner-2">
+                        <img src="./images/banner-2.jpg" class="mainBlock__banner-img" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="container">
+                <div class="contacts">
+                    <h2 class="title__h2 text-left">Sazinies ar mums</h2>
+                    <div class="offices">
+                        <div class="office">
+                            <div class="office__imgWrap">
+                                <img src="./images/office-1.png" class="office__img" alt="">
+                            </div>
+                            <div class="office__info">
+                                <h5 class="office__title">Tolmets galvenais birojs</h5>
+                                <p class="office__address">Hika iela 5, Liepāja, LV-3401, Latvija</p>
+                                <div class="office__contacts">
+                                    <a href="#" class="officeContact__link">
+                                        <img src="./images/phone-call.svg" onload="SVGInject(this)" class="officeContact__link-img" alt="">
+                                        +371 63 425 200
+                                    </a>
+                                    <a href="#" class="officeContact__link">
+                                        <img src="./images/mail.svg" onload="SVGInject(this)" class="officeContact__link-img" alt="">
+                                        info@tolmets.lv
+                                    </a>
+                                </div>
+                                <div class="office__workTime">
+                                    <h5 class="officeWorkTime__title">Darba laiks</h5>
+                                    <p class="officeWorkTime__text">Pirmdiena - Piektdiena 09 - 18 <br/>
+                                        Brīvdienās: Slēgts</p>
+                                </div>
+                                <div class="office__breake">
+                                    <img src="./images/warning.svg" onload="SVGInject(this)" class="office__breake-img" alt="">
+                                    Pusdienu pārtraukums: 12:00 - 13:00
+                                </div>
+                            </div>
+                        </div>
+                        <div class="office">
+                            <div class="office__imgWrap">
+                                <img src="./images/office-2.png" class="office__img" alt="">
+                            </div>
+                            <div class="office__info">
+                                <h5 class="office__title">Iepirkšanas nodaļa</h5>
+                                <div class="office__contacts">
+                                    <a href="#" class="officeContact__link">
+                                        <img src="./images/phone-call.svg" onload="SVGInject(this)" class="officeContact__link-img" alt="">
+                                        +371 63 425 200
+                                    </a>
+                                    <a href="#" class="officeContact__link">
+                                        <img src="./images/mail.svg" onload="SVGInject(this)" class="officeContact__link-img" alt="">
+                                        info@tolmets.lv
+                                    </a>
+                                </div>
+                                <div class="office__workTime">
+                                    <h5 class="officeWorkTime__title">Darba laiks</h5>
+                                    <p class="officeWorkTime__text">Pirmdiena - Piektdiena 09 - 18 <br/>
+                                        Brīvdienās: Slēgts</p>
+                                </div>
+                                <div class="office__breake">
+                                    <img src="./images/warning.svg" onload="SVGInject(this)" class="office__breake-img" alt="">
+                                    Pusdienu pārtraukums: 12:00 - 13:00
+                                </div>
+                            </div>
+                        </div>
+                        <div class="office">
+                            <div class="office__imgWrap">
+                                <img src="./images/office-1.png" class="office__img" alt="">
+                            </div>
+                            <div class="office__info">
+                                <h5 class="office__title">Metāllūžņu smalcināšanas komplekss „Shredder”</h5>
+                                <p class="office__address">Hika iela 5, Liepāja, LV-3401, Latvija</p>
+                                <div class="office__contacts">
+                                    <a href="#" class="officeContact__link">
+                                        <img src="./images/phone-call.svg" onload="SVGInject(this)" class="officeContact__link-img" alt="">
+                                        +371 63 425 200
+                                    </a>
+                                    <a href="#" class="officeContact__link">
+                                        <img src="./images/mail.svg" onload="SVGInject(this)" class="officeContact__link-img" alt="">
+                                        info@tolmets.lv
+                                    </a>
+                                </div>
+                                <div class="office__workTime">
+                                    <h5 class="officeWorkTime__title">Darba laiks</h5>
+                                    <p class="officeWorkTime__text">Pirmdiena - Piektdiena 09 - 18 <br/>
+                                        Brīvdienās: Slēgts</p>
+                                </div>
+                                <div class="office__breake">
+                                    <img src="./images/warning.svg" onload="SVGInject(this)" class="office__breake-img" alt="">
+                                    Pusdienu pārtraukums: 12:00 - 13:00
+                                </div>
+                            </div>
+                        </div>
+                        <div class="office">
+                            <div class="office__imgWrap">
+                                <img src="./images/office-2.png" class="office__img" alt="">
+                            </div>
+                            <div class="office__info">
+                                <h5 class="office__title">Pārdošanas nodaļa</h5>
+                                <div class="office__contacts">
+                                    <a href="#" class="officeContact__link">
+                                        <img src="./images/phone-call.svg" onload="SVGInject(this)" class="officeContact__link-img" alt="">
+                                        +371 63 425 200
+                                    </a>
+                                    <a href="#" class="officeContact__link">
+                                        <img src="./images/mail.svg" onload="SVGInject(this)" class="officeContact__link-img" alt="">
+                                        info@tolmets.lv
+                                    </a>
+                                </div>
+                                <div class="office__workTime">
+                                    <h5 class="officeWorkTime__title">Darba laiks</h5>
+                                    <p class="officeWorkTime__text">Pirmdiena - Piektdiena 09 - 18 <br/>
+                                        Brīvdienās: Slēgts</p>
+                                </div>
+                                <div class="office__breake">
+                                    <img src="./images/warning.svg" onload="SVGInject(this)" class="office__breake-img" alt="">
+                                    Pusdienu pārtraukums: 12:00 - 13:00
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contacts__bottom">
+                        <div class="contact__form">
+                            <div class="contactForm__wrap">
+                                <h5 class="contactForm__title">Saziņas forma</h5>
+                                <form action="">
+                                    <div class="form">
+                                        <div class="form__row">
+                                            <div class="form__elem">
+                                                <label for="" class="form__label">Izvēlētais temats</label>
+                                                <div class="custom-select custom-select-first">
+                                                    <select>
+                                                        <option value="0">Vakances</option>
+                                                        <option value="1">Audi</option>
+                                                        <option value="2">BMW</option>
+                                                        <option value="3">Citroen</option>
+                                                        <option value="4">Ford</option>
+                                                        <option value="5">Honda</option>
+                                                        <option value="6">Jaguar</option>
+                                                        <option value="7">Land Rover</option>
+                                                        <option value="8">Mercedes</option>
+                                                        <option value="9">Mini</option>
+                                                        <option value="10">Nissan</option>
+                                                        <option value="11">Toyota</option>
+                                                        <option value="12">Volvo</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form__row form__row3">
+                                            <div class="form__elem">
+                                                <label for="" class="form__label">Vārds</label>
+                                                <input type="text" class="form__input">
+                                            </div>
+                                            <div class="form__elem">
+                                                <label for="" class="form__label">Tālrunis</label>
+                                                <input type="text" class="form__input">
+                                            </div>
+                                            <div class="form__elem">
+                                                <label for="" class="form__label">E-pasts</label>
+                                                <input type="text" class="form__input">
+                                            </div>
+                                        </div>
+                                        <div class="form__row">
+                                            <div class="form__elem">
+                                                <label for="" class="form__label">Jūsu ziņojuma vai pieteikuma informācija</label>
+                                                <textarea name="" id="" cols="10" rows="3" class="form__textarea"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="form__row">
+                                            <div class="form__2col">
+                                                <div class="form__left">
+                                                    <div class="form__checkBox">
+                                                        <label class="checkbox__container">Piekrītu SIA Tolmets <a href="#" class="checkbox__container-link">privātuma politikai</a>
+                                                            <input type="checkbox" checked="checked">
+                                                            <span class="checkbox__checkmark"></span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="form__checkBox">
+                                                        <label class="checkbox__container">Piekrītu saņemt jaunumus e-pastā
+                                                            <input type="checkbox">
+                                                            <span class="checkbox__checkmark"></span>
+                                                        </label>
+                                                    </div>
+                                                    
+                                                </div>
+                                                <div class="form__right">
+                                                    <div class="form__btnWrap">
+                                                        <button type="button" class="form__btn">Sūtīt ziņojumu</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="contact__sidebar">
+                            <div class="contact__informer">
+                                <h5 class="contactInformer__title">Mēs piedāvāsim piemērotus <br/>
+                                    nosacījumus atkarībā no <br/>
+                                    Tavām vajadzībām.</h5>
+                                <p class="contactInformer__text"><span class="contactInformer__text-span">Zvani</span> uz bezmaksas tālruni <span class="contactInformer__text-span">287 000 13</span>, un
+                                    mēs sagatavosim atbilstošu piedāvājumu
+                                    katram atsevišķam gadījumam.</p>
+                            </div>
+                            <div class="contactSidebar__links">
+                                <ul class="ul">
+                                    <li class="li">
+                                        <a href="#" class="link">Tolmets EE</a>
+                                    </li>
+                                    <li class="li">
+                                        <a href="#" class="link">Tolmets LT</a>
+                                    </li>
+                                    <li class="li">
+                                        <a href="#" class="link">Pieņemšanas un apmaksas noteikumi</a>
+                                    </li>
+                                    <li class="li">
+                                        <a href="#" class="link">Piegādes iespējas</a>
+                                    </li>
+                                </ul>
+                                <br/>
+                                <br/>
+                                <h4 class="contactForm__h4">Vēlies kļut par partneri?</h4>
+                                <br/>
+                                <br/>
+                                <ul class="ul">
+                                    <li class="li">
+                                        <a href="#" class="link">Sadarbības partneri Latvijā</a>
+                                    </li>
+                                    <li class="li">
+                                        <a href="#" class="link">Sadarbības partneri Igaunijā</a>
+                                    </li>
+                                    <li class="li">
+                                        <a href="#" class="link">Sadarbības partneri Lietuvā</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="mobileFooter">
+                <div class="mobileFooter__logoWrap">
+                    <a href="#" class="mobileFooter__logo-link">
+                        <img src="./images/logo.png" class="mobileFooter__logo-img" alt="">
+                    </a>
+                </div>
+                <p class="footerTop__p">Vadošais metāllūžņu pārstrādes uzņēmums Baltijā</p>
+                <div class="footerTop__phoneWrap">
+                    <h5 class="footerTopPhone__title">Tālrunis uzziņām </h5>
+                    <a href="#" class="footerTopPhone__link">287 000 13</a>
+                    <p class="footerTopPhone__text">8:00 - 12:00   13:00 - 17:00</p>
+                </div>
+                <div class="mobileFooter__info">
+                    <p class="mobileFooter__p">Hika iela 5, Liepāja, LV-3401</p>
+                    <p class="mobileFooter__p">Tālr.: + 371 63425200</p>
+                    <p class="mobileFooter__p">E-pasts: info@tolmets.lv</p>
+                </div>
+                <div class="mobileFooter__social">
+                    <a href="#" class="footerTop__link">
+                        <img src="./images/fb-icon.svg" onload="SVGInject(this)" class="footerTop__link-img2" alt="">
+                        Facebook
+                    </a>
+                    <a href="#" class="footerTop__link">
+                        <img src="./images/in-icon.svg" onload="SVGInject(this)" class="footerTop__link-img2" alt="">
+                        Linkedin
+                    </a>
+                </div>
+                <div class="mobileFooter__menu">
+                    <a href="#" class="footerTop__link">Galvenā lapa</a>
+                    <a href="#" class="footerTop__link">Sīkdatņu un privātuma politika</a>
+                </div>
+                <div class="mobileFooter__copyright">
+                    <p class="mobileFooter__copyright-text">© Tolmets 2022</p>
+                </div>
+            </div>
+            <div class="footer__top">
+                <div class="container">
+                    <div class="footerTop__wrap">
+                        <div class="footerTop__left">
+                            <div class="footerTop__main">
+                                <div class="footerTop__imgWrap">
+                                    <a href="#" class="footerTop__link">
+                                        <img src="./images/logo.png" class="footerTop__link-img" alt="">
+                                    </a>
+                                </div>
+                                <p class="footerTop__p">Vadošais metāllūžņu pārstrādes uzņēmums Baltijā</p>
+                                <div class="footerTop__phoneWrap">
+                                    <h5 class="footerTopPhone__title">Tālrunis uzziņām </h5>
+                                    <a href="#" class="footerTopPhone__link">287 000 13</a>
+                                    <p class="footerTopPhone__text">8:00 - 12:00   13:00 - 17:00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footerTop__right">
+                            <div class="footerTop__col">
+                                <a href="#" class="footerTop__link">Pakalpojumi</a>
+                                <a href="#" class="footerTop__link">Vakances</a>
+                                <a href="#" class="footerTop__link">Cenas</a>
+                                <a href="#" class="footerTop__link">Karte</a>
+                            </div>
+                            <div class="footerTop__col">
+                                <a href="#" class="footerTop__link">Jaunumi</a>
+                                <a href="#" class="footerTop__link">Par mums</a>
+                                <a href="#" class="footerTop__link">Loterijas</a>
+                                <a href="#" class="footerTop__link">Kontakti</a>
+                            </div>
+                            <div class="footerTop__col">
+                                <a href="#" class="footerTop__link">Galvenā lapa</a>
+                                <a href="#" class="footerTop__link">Sīkdatņu un privātuma politika</a>
+                            </div>
+                            <div class="footerTop__col">
+                                <a href="#" class="footerTop__link">
+                                    <img src="./images/fb-icon.svg" onload="SVGInject(this)" class="footerTop__link-img2" alt="">
+                                    Facebook
+                                </a>
+                                <a href="#" class="footerTop__link">
+                                    <img src="./images/in-icon.svg" onload="SVGInject(this)" class="footerTop__link-img2" alt="">
+                                    Linkedin
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="container">
+                    <div class="footerBottom__wrap">
+                        <p class="footerBottom__p">Hika iela 5, Liepāja, LV-3401   |   Tālr.: + 371 63425200, Fakss: + 371 63425988   |   E-pasts: info@tolmets.lv</p>
+                        <p class="footerBottom__copyright">© Tolmets 2022</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="mobile-nav hide">
+            <button type="button" class="burger">
+                <img src="./images/close.svg" onload="SVGInject(this)" class="mobileBurger__img" alt="">
+            </button>
+            <div class="mobileMenu__wrap">
+                <div class="mobileMenu__content">
+                    <div class="language mobileLanguage">
+                        <div class="language__current">LV <img src="./images/arrow-btn.png" class="language__current-arrow" alt=""></div>
+                        <div class="languageSwitcher__wrap">
+                            <ul class="languageSwitcher">
+                                <li class="languageSwitcher__li">
+                                    <a href="#" class="languageSwitcher__link">LV</a>
+                                </li>
+                                <li class="languageSwitcher__li">
+                                    <a href="#" class="languageSwitcher__link">RU</a>
+                                </li>
+                                <li class="languageSwitcher__li">
+                                    <a href="#" class="languageSwitcher__link">EN</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a href="#" class="mobilePhone__link">
+                        <img src="./images/phone-call.svg" class="mobilePhoneLink__img" onload="SVGInject(this)" alt="">
+                        <span class="mobilePhoneLink__main">
+                            <span class="mobilePhoneLink__number">28 700 013</span>
+                            <span class="mobilePhoneLink__timeWrap">
+                                <span class="mobilePhoneLink__time">8:00 - 12:00</span>
+                                <span class="mobilePhoneLink__time">13:00 - 17:00</span>
+                            </span>
+                        </span>
+                    </a>
+                    <div class="contactUs__btnWrap">
+                        <a href="#" class="header__btn">
+                            <img src="./images/email.svg" class="header__btn-icon" onload="SVGInject(this)" alt="">
+                            <span class="header__btn-text">Sazinies ar mums</span>
+                        </a>
+                    </div>
+                    <div class="mobileMenu__nav">
+                        <a href="#" class="mobileMenu__nav-link">Pakalpojumi</a>
+                        <a href="#" class="mobileMenu__nav-link">Vakances</a>
+                        <a href="#" class="mobileMenu__nav-link">Cenas</a>
+                        <a href="#" class="mobileMenu__nav-link">Karte</a>
+                        <a href="#" class="mobileMenu__nav-link">Jaunumi</a>
+                        <a href="#" class="mobileMenu__nav-link">Par mums</a>
+                        <a href="#" class="mobileMenu__nav-link">Loterijas</a>
+                        <a href="#" class="mobileMenu__nav-link">Kontakti</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?callback=initMap&v=weekly"
+      defer
+    ></script>
+    <script src="./js/custom-select.js"></script>
+    <script src="./js/js.js"></script>
+</body>
+</html>

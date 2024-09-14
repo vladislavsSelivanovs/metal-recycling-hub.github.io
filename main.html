@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/css.css">
+
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/map.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/svg-inject.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="header__top">
+                <div class="container">
+                    <div class="headerTop__wrap">
+                        <div class="header__logo">
+                            <a href="#" class="logo__link">
+                                <img src="./images/logo.png" class="logoLink__img" alt="">
+                            </a>
+                        </div>
+                        <div class="headerTop__right">
+                            <div class="language">
+                                <div class="language__current">LV <img src="./images/arrow-btn.png" class="language__current-arrow" alt=""></div>
+                                <div class="languageSwitcher__wrap">
+                                    <ul class="languageSwitcher">
+                                        <li class="languageSwitcher__li">
+                                            <a href="#" class="languageSwitcher__link">LV</a>
+                                        </li>
+                                        <li class="languageSwitcher__li">
+                                            <a href="#" class="languageSwitcher__link">RU</a>
+                                        </li>
+                                        <li class="languageSwitcher__li">
+                                            <a href="#" class="languageSwitcher__link">EN</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="topPhone">
+                                <a href="#" class="topPhone__link">
+                                    <img src="./images/phone-call.svg" class="topPhoneLink__img" onload="SVGInject(this)" alt="">
+                                    <span class="topPhoneLink__main">
+                                        <span class="topPhoneLink__number">28 700 013</span>
+                                        <span class="topPhoneLink__timeWrap">
+                                            <span class="topPhoneLink__time">8:00 - 12:00</span>
+                                            <span class="topPhoneLink__time">13:00 - 17:00</span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="burgerWrap">
+                                <button type="button" class="burger">
+                                    <span class="burger__span"></span>
+                                    <span class="burger__span1"></span>
+                                    <span class="burger__span2"></span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__bottom">
+                <div class="container">
+                    <div class="headerBottom__wrap">
+                        <nav class="nav">
+                            <a href="#" class="nav__link">Pakalpojumi</a>
+                            <a href="#" class="nav__link">Vakances</a>
+                            <a href="#" class="nav__link">Cenas</a>
+                            <a href="#" class="nav__link">Karte</a>
+                            <a href="#" class="nav__link">Jaunumi</a>
+                            <a href="#" class="nav__link">Par mums</a>
+                            <a href="#" class="nav__link">Loterijas</a>
+                            <a href="#" class="nav__link">Kontakti</a>
+                        </nav>
+                        <div class="header__btnWrap">
+                            <a href="#" class="header__btn">
+                                <img src="./images/email.svg" class="header__btn-icon" onload="SVGInject(this)" alt="">
+                                <span class="header__btn-text">Sazinies ar mums</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="mainBlock">
+                <div class="mainBlock__left">
+                    <div class="slider__wrap">
+                        <div class="swiper sliderSwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="slider__content" style="background: url(./images/slider-1.jpg);">
+                                        <div class="sliderContent__wrap">
+                                            <h5 class="sliderContent__h5">Vadošais metāllūžņu pārstrādes uzņēmums Baltijā</h5>
+                                            <h2 class="sliderContent__h2">Laba cena, ātra apkalpošana <br/>un nekādu problēmu!</h2>
+                                            <div class="sliderContent__btnWrap">
+                                                <a href="#" class="sliderContent__btn">
+                                                    <img src="./images/locator.svg" class="sliderContent__btn-icon" onload="SVGInject(this)" alt="">
+                                                    <span class="sliderContent__btn-text">Skatīt pieņemšanas punktus</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slider__content" style="background: url(./images/slider-1.jpg);">
+                                        <div class="sliderContent__wrap">
+                                            <h5 class="sliderContent__h5">Vadošais metāllūžņu pārstrādes uzņēmums Baltijā</h5>
+                                            <h2 class="sliderContent__h2">Laba cena, ātra apkalpošana <br/>un nekādu problēmu!</h2>
+                                            <div class="sliderContent__btnWrap">
+                                                <a href="#" class="sliderContent__btn">
+                                                    <img src="./images/locator.svg" class="sliderContent__btn-icon" onload="SVGInject(this)" alt="">
+                                                    <span class="sliderContent__btn-text">Skatīt pieņemšanas punktus</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slider__content" style="background: url(./images/slider-1.jpg);">
+                                        <div class="sliderContent__wrap">
+                                            <h5 class="sliderContent__h5">Vadošais metāllūžņu pārstrādes uzņēmums Baltijā</h5>
+                                            <h2 class="sliderContent__h2">Laba cena, ātra apkalpošana <br/>un nekādu problēmu!</h2>
+                                            <div class="sliderContent__btnWrap">
+                                                <a href="#" class="sliderContent__btn">
+                                                    <img src="./images/locator.svg" class="sliderContent__btn-icon" onload="SVGInject(this)" alt="">
+                                                    <span class="sliderContent__btn-text">Skatīt pieņemšanas punktus</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <script>
+                        var sliderSwiper = new Swiper(".sliderSwiper", {
+                          pagination: {
+                            el: ".swiper-pagination",
+                            clickable: true,
+                          },
+                        });
+                    </script>
+                </div>
+                <div class="mainBlock__right">
+                    <a href="#" class="mainBlock__banner mainBlock__banner-1">
+                        <img src="./images/banner-1.jpg" class="mainBlock__banner-img" alt="">
+                    </a>
+                    <a href="#" class="mainBlock__banner mainBlock__banner-2">
+                        <img src="./images/banner-2.jpg" class="mainBlock__banner-img" alt="">
+                    </a>
+                </div>
+            </section>
+            <section class="receivingPointsSection">
+                <div class="receivingPointsSection__wrap">
+                    <div class="receivingPoints__left">
+                        <h2 class="receivingPoints__h2">
+                            <span class="receivingPoints__h2-large">60</span> <span class="receivingPoints__h2-orange">pieņemšanas</span> <br/>
+                            punkti Baltijā
+                        </h2>
+                        <div class="receivingPoints__textWrap">
+                            <p class="receivingPoints__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae volutpat arcu, vel tempus neque. Donec elit lorem, dignissim quis libero vel, tristique imperdiet erat. Quisque feugiat arcu eget sem congue auctor. </p>
+                        </div>
+                        <div class="receivingPoints__list">
+                            <a href="#" class="receivingPoints__list-link">
+                                <img src="./images/checklist.svg" class="receivingPoints__list-img receivingPoints__list-img1" onload="SVGInject(this)" alt="">
+                                <span class="receivingPoints__list-text">Pieņemšanas un apmaksas noteikumi</span>
+                            </a>
+                            <a href="#" class="receivingPoints__list-link">
+                                <img src="./images/fast-delivery.svg" class="receivingPoints__list-img receivingPoints__list-img2" onload="SVGInject(this)" alt="">
+                                <span class="receivingPoints__list-text">Piegādes iespējas</span>
+                            </a>
+                        </div>
+                        <div class="receivingPoints__btnWrap">
+                            <a href="#" class="receivingPoints__btn">
+                                <img src="./images/euro.svg" class="receivingPoints__btn-img" onload="SVGInject(this)" alt="">
+                                PARĀDĪT KUR SAŅEMT NAUDU
+                            </a>
+                        </div>
+                    </div>
+                    <div class="receivingPoints__right">
+                        <div id="map" class="map map2"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="servicesSection">
+                <div class="container">
+                    <div class="servicesSection__wrap">
+                        <h2 class="title__h2">Pakalpojumi</h2>
+                        <div class="services">
+                            <a href="#" class="service__link">
+                                <div class="flip-card">
+                                    <div class="flip-card-inner">
+                                        <div class="flip-card-front">
+                                            <div class="service__wrap">
+                                                <div class="service__iconWrap">
+                                                    <img src="./images/claw-machine.svg" class="service__icon service__icon-1" onload="SVGInject(this)" alt="">
+                                                </div>
+                                                <h3 class="service__h3">Metāllūžņu pieņemšana</h3>
+                                            </div>
+                                        </div>
+                                        <div class="flip-card-back" style="background: url(./images/service-1.jpg);">
+                                            <div class="service__back">
+                                                <div class="service__iconWrap">
+                                                    <img src="./images/claw-machine.svg" class="service__icon service__icon-1" onload="SVGInject(this)" alt="">
+                                                </div>
+                                                <h3 class="service__h3">Metāllūžņu pieņemšana</h3>
+                                                <span class="service__arrow"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="service__link">
+                                <div class="flip-card">
+                                    <div class="flip-card-inner">
+                                        <div class="flip-card-front">
+                                            <div class="service__wrap">
+                                                <div class="service__iconWrap">
+                                                    <img src="./images/truck.svg" class="service__icon service__icon-2" onload="SVGInject(this)" alt="">
+                                                </div>
+                                                <h3 class="service__h3">Transporta pakalpojumi</h3>
+                                            </div>
+                                        </div>
+                                        <div class="flip-card-back" style="background: url(./images/service-1.jpg);">
+                                            <div class="service__back">
+                                                <div class="service__iconWrap">
+                                                    <img src="./images/truck.svg" class="service__icon service__icon-2" onload="SVGInject(this)" alt="">
+                                                </div>
+                                                <h3 class="service__h3">Transporta pakalpojumi</h3>
+                                                <span class="service__arrow"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="service__link">
+                                <div class="flip-card">
+                                    <div class="flip-card-inner">
+                                        <div class="flip-card-front">
+                                            <div class="service__wrap">
+                                                <div class="service__iconWrap">
+                                                    <img src="./images/excavator.svg" class="service__icon service__icon-3" onload="SVGInject(this)" alt="">
+                                                </div>
+                                                <h3 class="service__h3">Objektu demontāža</h3>
+                                            </div>
+                                        </div>
+                                        <div class="flip-card-back" style="background: url(./images/service-1.jpg);">
+                                            <div class="service__back">
+                                                <div class="service__iconWrap">
+                                                    <img src="./images/excavator.svg" class="service__icon service__icon-3" onload="SVGInject(this)" alt="">
+                                                </div>
+                                                <h3 class="service__h3">Objektu demontāža</h3>
+                                                <span class="service__arrow"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="service__link">
+                                <div class="flip-card">
+                                    <div class="flip-card-inner">
+                                        <div class="flip-card-front">
+                                            <div class="service__wrap">
+                                                <div class="service__iconWrap">
+                                                    <img src="./images/destroying-car.svg" class="service__icon service__icon-4" onload="SVGInject(this)" alt="">
+                                                </div>
+                                                <h3 class="service__h3">Automašīnu pieņemšana</h3>
+                                            </div>
+                                        </div>
+                                        <div class="flip-card-back" style="background: url(./images/service-1.jpg);">
+                                            <div class="service__back">
+                                                <div class="service__iconWrap">
+                                                    <img src="./images/destroying-car.svg" class="service__icon service__icon-4" onload="SVGInject(this)" alt="">
+                                                </div>
+                                                <h3 class="service__h3">Automašīnu pieņemšana</h3>
+                                                <span class="service__arrow"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="service__link">
+                                <div class="flip-card">
+                                    <div class="flip-card-inner">
+                                        <div class="flip-card-front">
+                                            <div class="service__wrap">
+                                                <div class="service__iconWrap">
+                                                    <img src="./images/gears.svg" class="service__icon service__icon-5" onload="SVGInject(this)" alt="">
+                                                </div>
+                                                <h3 class="service__h3">Lūžņu pārstrādāšana</h3>
+                                            </div>
+                                        </div>
+                                        <div class="flip-card-back" style="background: url(./images/service-1.jpg);">
+                                            <div class="service__back">
+                                                <div class="service__iconWrap">
+                                                    <img src="./images/gears.svg" class="service__icon service__icon-5" onload="SVGInject(this)" alt="">
+                                                </div>
+                                                <h3 class="service__h3">Lūžņu pārstrādāšana</h3>
+                                                <span class="service__arrow"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="service__link">
+                                <div class="flip-card">
+                                    <div class="flip-card-inner">
+                                        <div class="flip-card-front">
+                                            <div class="service__wrap">
+                                                <div class="service__iconWrap">
+                                                    <img src="./images/worldwide-shipping.svg" class="service__icon service__icon-6" onload="SVGInject(this)" alt="">
+                                                </div>
+                                                <h3 class="service__h3">Konteineru serviss</h3>
+                                            </div>
+                                        </div>
+                                        <div class="flip-card-back" style="background: url(./images/service-1.jpg);">
+                                            <div class="service__back">
+                                                <div class="service__iconWrap">
+                                                    <img src="./images/worldwide-shipping.svg" class="service__icon service__icon-6" onload="SVGInject(this)" alt="">
+                                                </div>
+                                                <h3 class="service__h3">Konteineru serviss</h3>
+                                                <span class="service__arrow"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="infoSection">
+                <div class="container">
+                    <div class="infoSection__wrap">
+                        <h2 class="title__h2">Ik mēnesi par metāllūžņiem <br/>TOLMETS izmaksā vairāk nekā 10 miljonus</h2>
+                        <div class="info">
+                            <div class="info__elem">
+                                <div class="info__imgWrap">
+                                    <img src="./images/info-1.png" class="info__img" alt="">
+                                </div>
+                                <div class="info__title">
+                                    Augstas cenas un <br/>ātra samaksa
+                                </div>
+                            </div>
+                            <div class="info__elem">
+                                <div class="info__imgWrap">
+                                    <img src="./images/info-2.png" class="info__img" alt="">
+                                </div>
+                                <div class="info__title">
+                                    Vairāk nekā 60 <br/>pieņemšanas punktu <br/>Baltijā
+                                </div>
+                            </div>
+                            <div class="info__elem">
+                                <div class="info__imgWrap">
+                                    <img src="./images/info-3.png" class="info__img" alt="">
+                                </div>
+                                <div class="info__title">
+                                    Lielo metāllūžņu <br/>demontāža un piegāde
+                                </div>
+                            </div>
+                            <div class="info__elem">
+                                <div class="info__imgWrap">
+                                    <img src="./images/info-4.png" class="info__img" alt="">
+                                </div>
+                                <div class="info__title">
+                                    Godīgas nosvēršanas <br/>garantija
+                                </div>
+                            </div>
+                            <div class="info__elem">
+                                <div class="info__imgWrap">
+                                    <img src="./images/info-5.png" class="info__img" alt="">
+                                </div>
+                                <div class="info__title">
+                                    Rūpes par dabu <br/>kopā ar Tolmets
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="newsSection">
+                <div class="container">
+                    <div class="newsSection__wrap">
+                        <h2 class="title__h2">Jaunumi</h2>
+                        <div class="mainNews__content">
+                            <div class="swiper mainNews-swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <a href="#" class="news__link">
+                                            <div class="newsLink__wrap">
+                                                <div class="newsLinkWrap__left">
+                                                    <img src="./images/news-img-1.jpg" class="newsLinkWrap__img" alt="">
+                                                </div>
+                                                <div class="newsLinkWrap__right">
+                                                    <span class="newsLinkWrap__date">19.10.2022</span>
+                                                    <h3 class="newsLinkWrap__h3">
+                                                        Aktuālās informācijas virsraksta vieta, iespējams divās rindās
+                                                    </h3>
+                                                    <p class="newsLinkWrap__p">
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed maximus quam, sed sodales odio. Praesent urna libero, dictum eu erat fringilla, placerat.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#" class="news__link">
+                                            <div class="newsLink__wrap">
+                                                <div class="newsLinkWrap__left">
+                                                    <img src="./images/news-img-2.jpg" class="newsLinkWrap__img" alt="">
+                                                </div>
+                                                <div class="newsLinkWrap__right">
+                                                    <span class="newsLinkWrap__date">19.10.2022</span>
+                                                    <h3 class="newsLinkWrap__h3">
+                                                        Aktuālās informācijas virsraksta vieta, iespējams divās rindās
+                                                    </h3>
+                                                    <p class="newsLinkWrap__p">
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed maximus quam, sed sodales odio. Praesent urna libero, dictum eu erat fringilla, placerat.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#" class="news__link">
+                                            <div class="newsLink__wrap">
+                                                <div class="newsLinkWrap__left">
+                                                    <img src="./images/news-img-1.jpg" class="newsLinkWrap__img" alt="">
+                                                </div>
+                                                <div class="newsLinkWrap__right">
+                                                    <span class="newsLinkWrap__date">19.10.2022</span>
+                                                    <h3 class="newsLinkWrap__h3">
+                                                        Aktuālās informācijas virsraksta vieta, iespējams divās rindās
+                                                    </h3>
+                                                    <p class="newsLinkWrap__p">
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed maximus quam, sed sodales odio. Praesent urna libero, dictum eu erat fringilla, placerat.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#" class="news__link">
+                                            <div class="newsLink__wrap">
+                                                <div class="newsLinkWrap__left">
+                                                    <img src="./images/news-img-2.jpg" class="newsLinkWrap__img" alt="">
+                                                </div>
+                                                <div class="newsLinkWrap__right">
+                                                    <span class="newsLinkWrap__date">19.10.2022</span>
+                                                    <h3 class="newsLinkWrap__h3">
+                                                        Aktuālās informācijas virsraksta vieta, iespējams divās rindās
+                                                    </h3>
+                                                    <p class="newsLinkWrap__p">
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed maximus quam, sed sodales odio. Praesent urna libero, dictum eu erat fringilla, placerat.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#" class="news__link">
+                                            <div class="newsLink__wrap">
+                                                <div class="newsLinkWrap__left">
+                                                    <img src="./images/news-img-1.jpg" class="newsLinkWrap__img" alt="">
+                                                </div>
+                                                <div class="newsLinkWrap__right">
+                                                    <span class="newsLinkWrap__date">19.10.2022</span>
+                                                    <h3 class="newsLinkWrap__h3">
+                                                        Aktuālās informācijas virsraksta vieta, iespējams divās rindās
+                                                    </h3>
+                                                    <p class="newsLinkWrap__p">
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed maximus quam, sed sodales odio. Praesent urna libero, dictum eu erat fringilla, placerat.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#" class="news__link">
+                                            <div class="newsLink__wrap">
+                                                <div class="newsLinkWrap__left">
+                                                    <img src="./images/news-img-2.jpg" class="newsLinkWrap__img" alt="">
+                                                </div>
+                                                <div class="newsLinkWrap__right">
+                                                    <span class="newsLinkWrap__date">19.10.2022</span>
+                                                    <h3 class="newsLinkWrap__h3">
+                                                        Aktuālās informācijas virsraksta vieta, iespējams divās rindās
+                                                    </h3>
+                                                    <p class="newsLinkWrap__p">
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed maximus quam, sed sodales odio. Praesent urna libero, dictum eu erat fringilla, placerat.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination-news"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <script>
+                var swiper2 = new Swiper(".mainNews-swiper", {
+                slidesPerView: 2,
+                spaceBetween: 150,
+                loop: true,
+                /* autoplay: {
+                    delay: 2500,
+                    disableOnInteraction: false,
+                }, */
+                pagination: {
+                    el: ".swiper-pagination-news",
+                    clickable: true,
+                },
+                breakpoints: {
+                    320: {
+                        slidesPerView: 1,
+                        spaceBetween: 20,
+                    },
+                    768: {
+                        slidesPerView: 1,
+                        spaceBetween: 24,
+                    },
+                    1024: {
+                        slidesPerView: 2,
+                        spaceBetween: 24,
+                    },
+                    1500: {
+                        slidesPerView: 2,
+                        spaceBetween: 24,
+                    },
+                }
+            });
+            </script>
+        </main>
+        <footer>
+            <div class="mobileFooter">
+                <div class="mobileFooter__logoWrap">
+                    <a href="#" class="mobileFooter__logo-link">
+                        <img src="./images/logo.png" class="mobileFooter__logo-img" alt="">
+                    </a>
+                </div>
+                <p class="footerTop__p">Vadošais metāllūžņu pārstrādes uzņēmums Baltijā</p>
+                <div class="footerTop__phoneWrap">
+                    <h5 class="footerTopPhone__title">Tālrunis uzziņām </h5>
+                    <a href="#" class="footerTopPhone__link">287 000 13</a>
+                    <p class="footerTopPhone__text">8:00 - 12:00   13:00 - 17:00</p>
+                </div>
+                <div class="mobileFooter__info">
+                    <p class="mobileFooter__p">Hika iela 5, Liepāja, LV-3401</p>
+                    <p class="mobileFooter__p">Tālr.: + 371 63425200</p>
+                    <p class="mobileFooter__p">E-pasts: info@tolmets.lv</p>
+                </div>
+                <div class="mobileFooter__social">
+                    <a href="#" class="footerTop__link">
+                        <img src="./images/fb-icon.svg" onload="SVGInject(this)" class="footerTop__link-img2" alt="">
+                        Facebook
+                    </a>
+                    <a href="#" class="footerTop__link">
+                        <img src="./images/in-icon.svg" onload="SVGInject(this)" class="footerTop__link-img2" alt="">
+                        Linkedin
+                    </a>
+                </div>
+                <div class="mobileFooter__menu">
+                    <a href="#" class="footerTop__link">Galvenā lapa</a>
+                    <a href="#" class="footerTop__link">Sīkdatņu un privātuma politika</a>
+                </div>
+                <div class="mobileFooter__copyright">
+                    <p class="mobileFooter__copyright-text">© Tolmets 2022</p>
+                </div>
+            </div>
+            <div class="footer__top">
+                <div class="container">
+                    <div class="footerTop__wrap">
+                        <div class="footerTop__left">
+                            <div class="footerTop__main">
+                                <div class="footerTop__imgWrap">
+                                    <a href="#" class="footerTop__link">
+                                        <img src="./images/logo.png" class="footerTop__link-img" alt="">
+                                    </a>
+                                </div>
+                                <p class="footerTop__p">Vadošais metāllūžņu pārstrādes uzņēmums Baltijā</p>
+                                <div class="footerTop__phoneWrap">
+                                    <h5 class="footerTopPhone__title">Tālrunis uzziņām </h5>
+                                    <a href="#" class="footerTopPhone__link">287 000 13</a>
+                                    <p class="footerTopPhone__text">8:00 - 12:00   13:00 - 17:00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footerTop__right">
+                            <div class="footerTop__col">
+                                <a href="#" class="footerTop__link">Pakalpojumi</a>
+                                <a href="#" class="footerTop__link">Vakances</a>
+                                <a href="#" class="footerTop__link">Cenas</a>
+                                <a href="#" class="footerTop__link">Karte</a>
+                            </div>
+                            <div class="footerTop__col">
+                                <a href="#" class="footerTop__link">Jaunumi</a>
+                                <a href="#" class="footerTop__link">Par mums</a>
+                                <a href="#" class="footerTop__link">Loterijas</a>
+                                <a href="#" class="footerTop__link">Kontakti</a>
+                            </div>
+                            <div class="footerTop__col">
+                                <a href="#" class="footerTop__link">Galvenā lapa</a>
+                                <a href="#" class="footerTop__link">Sīkdatņu un privātuma politika</a>
+                            </div>
+                            <div class="footerTop__col">
+                                <a href="#" class="footerTop__link">
+                                    <img src="./images/fb-icon.svg" onload="SVGInject(this)" class="footerTop__link-img2" alt="">
+                                    Facebook
+                                </a>
+                                <a href="#" class="footerTop__link">
+                                    <img src="./images/in-icon.svg" onload="SVGInject(this)" class="footerTop__link-img2" alt="">
+                                    Linkedin
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="container">
+                    <div class="footerBottom__wrap">
+                        <p class="footerBottom__p">Hika iela 5, Liepāja, LV-3401   |   Tālr.: + 371 63425200, Fakss: + 371 63425988   |   E-pasts: info@tolmets.lv</p>
+                        <p class="footerBottom__copyright">© Tolmets 2022</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="mobile-nav hide">
+            <button type="button" class="burger">
+                <img src="./images/close.svg" onload="SVGInject(this)" class="mobileBurger__img" alt="">
+            </button>
+            <div class="mobileMenu__wrap">
+                <div class="mobileMenu__content">
+                    <div class="language mobileLanguage">
+                        <div class="language__current">LV <img src="./images/arrow-btn.png" class="language__current-arrow" alt=""></div>
+                        <div class="languageSwitcher__wrap">
+                            <ul class="languageSwitcher">
+                                <li class="languageSwitcher__li">
+                                    <a href="#" class="languageSwitcher__link">LV</a>
+                                </li>
+                                <li class="languageSwitcher__li">
+                                    <a href="#" class="languageSwitcher__link">RU</a>
+                                </li>
+                                <li class="languageSwitcher__li">
+                                    <a href="#" class="languageSwitcher__link">EN</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a href="#" class="mobilePhone__link">
+                        <img src="./images/phone-call.svg" class="mobilePhoneLink__img" onload="SVGInject(this)" alt="">
+                        <span class="mobilePhoneLink__main">
+                            <span class="mobilePhoneLink__number">28 700 013</span>
+                            <span class="mobilePhoneLink__timeWrap">
+                                <span class="mobilePhoneLink__time">8:00 - 12:00</span>
+                                <span class="mobilePhoneLink__time">13:00 - 17:00</span>
+                            </span>
+                        </span>
+                    </a>
+                    <div class="contactUs__btnWrap">
+                        <a href="#" class="header__btn">
+                            <img src="./images/email.svg" class="header__btn-icon" onload="SVGInject(this)" alt="">
+                            <span class="header__btn-text">Sazinies ar mums</span>
+                        </a>
+                    </div>
+                    <div class="mobileMenu__nav">
+                        <a href="#" class="mobileMenu__nav-link">Pakalpojumi</a>
+                        <a href="#" class="mobileMenu__nav-link">Vakances</a>
+                        <a href="#" class="mobileMenu__nav-link">Cenas</a>
+                        <a href="#" class="mobileMenu__nav-link">Karte</a>
+                        <a href="#" class="mobileMenu__nav-link">Jaunumi</a>
+                        <a href="#" class="mobileMenu__nav-link">Par mums</a>
+                        <a href="#" class="mobileMenu__nav-link">Loterijas</a>
+                        <a href="#" class="mobileMenu__nav-link">Kontakti</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?callback=initMap&v=weekly"
+      defer
+    ></script>
+    <script src="./js/js.js"></script>
+</body>
+</html>

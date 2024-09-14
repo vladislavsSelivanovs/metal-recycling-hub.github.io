@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cenas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="./css/css.css">
+
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="./js/map.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/svg-inject.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="header__top">
+                <div class="container">
+                    <div class="headerTop__wrap">
+                        <div class="header__logo">
+                            <a href="#" class="logo__link">
+                                <img src="./images/logo.png" class="logoLink__img" alt="">
+                            </a>
+                        </div>
+                        <div class="headerTop__right">
+                            <div class="language">
+                                <div class="language__current">LV <img src="./images/arrow-btn.png" class="language__current-arrow" alt=""></div>
+                                <div class="languageSwitcher__wrap">
+                                    <ul class="languageSwitcher">
+                                        <li class="languageSwitcher__li">
+                                            <a href="#" class="languageSwitcher__link">LV</a>
+                                        </li>
+                                        <li class="languageSwitcher__li">
+                                            <a href="#" class="languageSwitcher__link">RU</a>
+                                        </li>
+                                        <li class="languageSwitcher__li">
+                                            <a href="#" class="languageSwitcher__link">EN</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="topPhone">
+                                <a href="#" class="topPhone__link">
+                                    <img src="./images/phone-call.svg" class="topPhoneLink__img" onload="SVGInject(this)" alt="">
+                                    <span class="topPhoneLink__main">
+                                        <span class="topPhoneLink__number">28 700 013</span>
+                                        <span class="topPhoneLink__timeWrap">
+                                            <span class="topPhoneLink__time">8:00 - 12:00</span>
+                                            <span class="topPhoneLink__time">13:00 - 17:00</span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="burgerWrap">
+                                <button type="button" class="burger">
+                                    <span class="burger__span"></span>
+                                    <span class="burger__span1"></span>
+                                    <span class="burger__span2"></span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__bottom">
+                <div class="container">
+                    <div class="headerBottom__wrap">
+                        <nav class="nav">
+                            <a href="#" class="nav__link">Pakalpojumi</a>
+                            <a href="#" class="nav__link">Vakances</a>
+                            <a href="#" class="nav__link">Cenas</a>
+                            <a href="#" class="nav__link">Karte</a>
+                            <a href="#" class="nav__link">Jaunumi</a>
+                            <a href="#" class="nav__link">Par mums</a>
+                            <a href="#" class="nav__link">Loterijas</a>
+                            <a href="#" class="nav__link">Kontakti</a>
+                        </nav>
+                        <div class="header__btnWrap">
+                            <a href="#" class="header__btn">
+                                <img src="./images/email.svg" class="header__btn-icon" onload="SVGInject(this)" alt="">
+                                <span class="header__btn-text">Sazinies ar mums</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="breadcrumbs">
+                <div class="breadcrumbs__main" style="background: url(./images/cenas-bg.jpg);">
+                    <h1 class="breadcrumbs__title">Cenas</h1>
+                </div>
+                <div class="breadcrumbs__banner">
+                    <a href="#" class="mainBlock__banner mainBlock__banner-2">
+                        <img src="./images/banner-3.jpg" class="mainBlock__banner-img" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="cenas">
+                <div class="cenas__wrap">
+                    <div class="cenas__left">
+                        <h2 class="cenas__h2">Vienmēr labas cenas!</h2>
+                        <div class="textWrap">
+                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor placerat sem non efficitur. Sed auctor tempus iaculis. Quisque scelerisque semper tortor, ut luctus turpis semper id. Proin
+                            </p>
+                        </div>
+                        <div class="calculator">
+                            <h3 class="calculator__h3">Metāllūžņu pieņemšanas cenas</h3>
+                            <form action="">
+                                <div class="calculator__form">
+                                    <div class="calculatorForm__row">
+                                        <p class="calculatorForm__label">Metāllūžņu veids</p>
+                                        <div class="custom-select custom-select-first custom-select-withImg">
+                                            <select>
+                                                <option value="0">Izvēlieties metālu</option>
+                                                <option value="1">Audi</option>
+                                                <option value="2">BMW</option>
+                                                <option value="3">Citroen</option>
+                                            </select>
+                                            <img src="./images/iron-bar.svg" class="select__img" onload="SVGInject(this)" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="calculatorForm__row">
+                                        <p class="calculatorForm__label">Nodošanas punkts</p>
+                                        <div class="custom-select custom-select-first custom-select-withImg">
+                                            <select>
+                                                <option value="0">Izvēlieties pieņemšanas punktu</option>
+                                                <option value="1">Audi1</option>
+                                                <option value="2">BMW1</option>
+                                                <option value="3">Citroen</option>
+                                            </select>
+                                            <img src="./images/locator.svg" class="select__img" onload="SVGInject(this)" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="calculatorForm__row">
+                                        <div class="range__content">
+                                            <div class="range__wrap">
+                                                <div id="range"></div>
+                                            </div>
+                                            <div class="range__labelWrap">
+                                                <div class="range__label">10</div>
+                                                <div class="range__label">250</div>
+                                                <div class="range__label">500</div>
+                                                <div class="range__label">1000</div>
+                                                <div class="range__label">5000</div>
+                                            </div>
+                                        </div>
+                                        
+                                        
+                                        <script>
+                                            function refreshSwatch() {
+
+                                            }
+                                            $( "#range" ).slider({
+                                                orientation: "horizontal",
+                                                range: "min",
+                                                max: 5000,
+                                                value: 10,
+                                                slide: refreshSwatch,
+                                                change: refreshSwatch
+                                            });
+                                        </script>
+                                    </div>
+                                    <div class="calcultaor__total">
+                                        <div class="calcultaorTotal__left">
+                                            <div class="calcultaorTotal__weight">
+                                                <input type="text" class="calcultaorTotalWeight__input" value="1000">
+                                                <div class="custom-select custom-select-first">
+                                                    <select>
+                                                        <option value="0">KG</option>
+                                                        <option value="1">KG</option>
+                                                        <option value="2">KG</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="calcultaorTotal__center">
+                                            =
+                                        </div>
+                                        <div class="calcultaorTotal__right">
+                                            <input type="text" class="calcultaorTotal__input" value="500€">
+                                        </div>
+                                    </div>
+                                    <div class="receivingPoints__list">
+                                        <a href="#" class="receivingPoints__list-link">
+                                            <img src="./images/checklist.svg" class="receivingPoints__list-img receivingPoints__list-img1" onload="SVGInject(this)" alt="">
+                                            <span class="receivingPoints__list-text">Pieņemšanas un apmaksas noteikumi</span>
+                                        </a>
+                                        <a href="#" class="receivingPoints__list-link">
+                                            <img src="./images/fast-delivery.svg" class="receivingPoints__list-img receivingPoints__list-img2" onload="SVGInject(this)" alt="">
+                                            <span class="receivingPoints__list-text">Piegādes iespējas</span>
+                                        </a>
+                                    </div>
+                                    <div class="receivingPoints__btnWrap2">
+                                        <a href="#" class="receivingPoints__btn">
+                                            <img src="./images/euro.svg" class="receivingPoints__btn-img" onload="SVGInject(this)" alt="">
+                                            PARĀDĪT KUR SAŅEMT NAUDU
+                                        </a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="cenas__right">
+                        <div class="cenasRight__content">
+                            <h3 class="cenas__h2">60 pieņemšanas punkti Baltijā</h3>
+                            <div class="textWrap">
+                                <p class="text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor placerat sem non efficitur. Sed auctor tempus iaculis. Quisque scelerisque semper tortor, ut luctus turpis semper id. Proin felis diam, iaculis ac pulvinar id, mollis quis velit. Mauris ullamcorper metus at arcu
+                                </p>
+                            </div>
+                        </div>
+                        <div class="map3__wrap">
+                            <div id="map" class="map map3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="mobileFooter">
+                <div class="mobileFooter__logoWrap">
+                    <a href="#" class="mobileFooter__logo-link">
+                        <img src="./images/logo.png" class="mobileFooter__logo-img" alt="">
+                    </a>
+                </div>
+                <p class="footerTop__p">Vadošais metāllūžņu pārstrādes uzņēmums Baltijā</p>
+                <div class="footerTop__phoneWrap">
+                    <h5 class="footerTopPhone__title">Tālrunis uzziņām </h5>
+                    <a href="#" class="footerTopPhone__link">287 000 13</a>
+                    <p class="footerTopPhone__text">8:00 - 12:00   13:00 - 17:00</p>
+                </div>
+                <div class="mobileFooter__info">
+                    <p class="mobileFooter__p">Hika iela 5, Liepāja, LV-3401</p>
+                    <p class="mobileFooter__p">Tālr.: + 371 63425200</p>
+                    <p class="mobileFooter__p">E-pasts: info@tolmets.lv</p>
+                </div>
+                <div class="mobileFooter__social">
+                    <a href="#" class="footerTop__link">
+                        <img src="./images/fb-icon.svg" onload="SVGInject(this)" class="footerTop__link-img2" alt="">
+                        Facebook
+                    </a>
+                    <a href="#" class="footerTop__link">
+                        <img src="./images/in-icon.svg" onload="SVGInject(this)" class="footerTop__link-img2" alt="">
+                        Linkedin
+                    </a>
+                </div>
+                <div class="mobileFooter__menu">
+                    <a href="#" class="footerTop__link">Galvenā lapa</a>
+                    <a href="#" class="footerTop__link">Sīkdatņu un privātuma politika</a>
+                </div>
+                <div class="mobileFooter__copyright">
+                    <p class="mobileFooter__copyright-text">© Tolmets 2022</p>
+                </div>
+            </div>
+            <div class="footer__top">
+                <div class="container">
+                    <div class="footerTop__wrap">
+                        <div class="footerTop__left">
+                            <div class="footerTop__main">
+                                <div class="footerTop__imgWrap">
+                                    <a href="#" class="footerTop__link">
+                                        <img src="./images/logo.png" class="footerTop__link-img" alt="">
+                                    </a>
+                                </div>
+                                <p class="footerTop__p">Vadošais metāllūžņu pārstrādes uzņēmums Baltijā</p>
+                                <div class="footerTop__phoneWrap">
+                                    <h5 class="footerTopPhone__title">Tālrunis uzziņām </h5>
+                                    <a href="#" class="footerTopPhone__link">287 000 13</a>
+                                    <p class="footerTopPhone__text">8:00 - 12:00   13:00 - 17:00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footerTop__right">
+                            <div class="footerTop__col">
+                                <a href="#" class="footerTop__link">Pakalpojumi</a>
+                                <a href="#" class="footerTop__link">Vakances</a>
+                                <a href="#" class="footerTop__link">Cenas</a>
+                                <a href="#" class="footerTop__link">Karte</a>
+                            </div>
+                            <div class="footerTop__col">
+                                <a href="#" class="footerTop__link">Jaunumi</a>
+                                <a href="#" class="footerTop__link">Par mums</a>
+                                <a href="#" class="footerTop__link">Loterijas</a>
+                                <a href="#" class="footerTop__link">Kontakti</a>
+                            </div>
+                            <div class="footerTop__col">
+                                <a href="#" class="footerTop__link">Galvenā lapa</a>
+                                <a href="#" class="footerTop__link">Sīkdatņu un privātuma politika</a>
+                            </div>
+                            <div class="footerTop__col">
+                                <a href="#" class="footerTop__link">
+                                    <img src="./images/fb-icon.svg" onload="SVGInject(this)" class="footerTop__link-img2" alt="">
+                                    Facebook
+                                </a>
+                                <a href="#" class="footerTop__link">
+                                    <img src="./images/in-icon.svg" onload="SVGInject(this)" class="footerTop__link-img2" alt="">
+                                    Linkedin
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="container">
+                    <div class="footerBottom__wrap">
+                        <p class="footerBottom__p">Hika iela 5, Liepāja, LV-3401   |   Tālr.: + 371 63425200, Fakss: + 371 63425988   |   E-pasts: info@tolmets.lv</p>
+                        <p class="footerBottom__copyright">© Tolmets 2022</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="mobile-nav hide">
+            <button type="button" class="burger">
+                <img src="./images/close.svg" onload="SVGInject(this)" class="mobileBurger__img" alt="">
+            </button>
+            <div class="mobileMenu__wrap">
+                <div class="mobileMenu__content">
+                    <div class="language mobileLanguage">
+                        <div class="language__current">LV <img src="./images/arrow-btn.png" class="language__current-arrow" alt=""></div>
+                        <div class="languageSwitcher__wrap">
+                            <ul class="languageSwitcher">
+                                <li class="languageSwitcher__li">
+                                    <a href="#" class="languageSwitcher__link">LV</a>
+                                </li>
+                                <li class="languageSwitcher__li">
+                                    <a href="#" class="languageSwitcher__link">RU</a>
+                                </li>
+                                <li class="languageSwitcher__li">
+                                    <a href="#" class="languageSwitcher__link">EN</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a href="#" class="mobilePhone__link">
+                        <img src="./images/phone-call.svg" class="mobilePhoneLink__img" onload="SVGInject(this)" alt="">
+                        <span class="mobilePhoneLink__main">
+                            <span class="mobilePhoneLink__number">28 700 013</span>
+                            <span class="mobilePhoneLink__timeWrap">
+                                <span class="mobilePhoneLink__time">8:00 - 12:00</span>
+                                <span class="mobilePhoneLink__time">13:00 - 17:00</span>
+                            </span>
+                        </span>
+                    </a>
+                    <div class="contactUs__btnWrap">
+                        <a href="#" class="header__btn">
+                            <img src="./images/email.svg" class="header__btn-icon" onload="SVGInject(this)" alt="">
+                            <span class="header__btn-text">Sazinies ar mums</span>
+                        </a>
+                    </div>
+                    <div class="mobileMenu__nav">
+                        <a href="#" class="mobileMenu__nav-link">Pakalpojumi</a>
+                        <a href="#" class="mobileMenu__nav-link">Vakances</a>
+                        <a href="#" class="mobileMenu__nav-link">Cenas</a>
+                        <a href="#" class="mobileMenu__nav-link">Karte</a>
+                        <a href="#" class="mobileMenu__nav-link">Jaunumi</a>
+                        <a href="#" class="mobileMenu__nav-link">Par mums</a>
+                        <a href="#" class="mobileMenu__nav-link">Loterijas</a>
+                        <a href="#" class="mobileMenu__nav-link">Kontakti</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?callback=initMap&v=weekly"
+      defer
+    ></script>
+    <script src="./js/custom-select.js"></script>
+    <!-- <script src="./js/custom-select2.js"></script> -->
+    <script src="./js/js.js"></script>
+</body>
+</html>
